@@ -1,6 +1,6 @@
 ---
 title: "Lab 2 Assignment"
-author: "___"
+author: "Kristofer Sando"
 date: "`r format(Sys.Date())`"
 output: github_document
 ---
@@ -20,8 +20,25 @@ The final section of the Lab 2 instructions asks me to imagine I have collected 
 First, I combine the values into a vector using the `c()` function, assign it to a variable named `x`, and print `x`
 
 ```{r vector}
+k <- c(1, 2, 10, 4.7, 5.0)
+k
 
-```
+length(k)  # sample size
+median(k)  # median value
+mean(k)    # mean value
+sd(k)      # standard deviation
+
+n <- length(k) # sample size
+n
+
+sem <- sd(k) / sqrt(n) # standard error of the mean
+sem
+
+mean(k) + 1.96 * sem                             # upper limit
+mean(k) - 1.96 * sem                             # lower limit
+c(mean(k) + 1.96 * sem, mean(k) - 1.96 * sem)    # both limits combined
+
+'''
 
 Here I calculate the sample size, mean, median, and standard deviation:
 
