@@ -21,7 +21,7 @@ explanation, code, and graphs
 The repository contains the following scripts:
 
 -   [calculator.R](calculator.R)
--   [calculator.Rmd](calculator.Rmd)
+-   [Lab 2 Report](assignment.md)
 
 ## Instructions for knitting
 
@@ -44,14 +44,6 @@ Here is a list of resources for helping you write R Markdown documents:
     Reference**
 -   [Basic Syntax](https://www.markdownguide.org/basic-syntax/) on the
     Markdown Guide website
-
-## Session Info
-
-Here is my session information:
-
-``` r
-sessioninfo::session_info(c("tidyverse"))
-```
 
     ## - Session info ---------------------------------------------------------------
     ##  setting  value                       
